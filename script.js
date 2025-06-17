@@ -633,3 +633,12 @@ function restartQuiz() {
 
 // Iniciar o quiz quando a página carregar
 window.onload = initQuiz;
+// Debug: Verificar se elementos existem
+console.log("Elementos encontrados:");
+console.log("quiz-container:", document.getElementById('quiz-container'));
+console.log("current-question:", document.getElementById('current-question'));
+console.log("total-questions:", document.getElementById('total-questions'));
+console.log("timer:", document.getElementById('timer'));
+console.log("score:", document.getElementById('score'));
+console.log("progress:", document.getElementById('progress'));
+console.log("results:", document.getElementById('results'));
