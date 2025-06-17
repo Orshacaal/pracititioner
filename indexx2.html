@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz AWS Cloud Practitioner CLF-C02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AWS Cloud Practitioner</h1>
+            <p>Simulado CLF-C02 - 44 Questões</p>
+        </div>
+        
+        <div class="quiz-info">
+            <div>Questão: <span id="current-question">1</span> de <span id="total-questions">44</span></div>
+            <div class="timer" id="timer">90:00</div>
+            <div>Pontuação: <span id="score">0</span>/44</div>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+        
+        <div class="quiz-content">
+            <div id="quiz-container"></div>
+            
+            <div class="results" id="results">
+                <h2>Quiz Finalizado!</h2>
+                <div class="score-display" id="final-score"></div>
+                <p id="result-message"></p>
+                <button class="btn btn-primary" onclick="restartQuiz()">Refazer Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
